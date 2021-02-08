@@ -64,6 +64,7 @@ boton_multi = Button(root, text="*", width=5, height=2, command=lambda:click("*"
 boton_sum = Button(root, text="+", width=5, height=2, command=lambda:click("+"))
 boton_rest = Button(root, text="-", width=5, height=2, command=lambda:click("-"))
 boton_igual = Button(root, text="=", width=5, height=2, command=lambda:operaciones())
+boton_rest = Button(root, text="**", width=5, height=2, command=lambda:click("**"))
 
 
 #Colocar botones
@@ -90,6 +91,6 @@ boton_rest.grid(row=4, column=3, padx=3, pady=5)
 boton0.grid(row=5, column=0, columnspan=2, padx=5, pady=5)
 boton_punto.grid(row=5, column=2, padx=5, pady=5)
 boton_igual.grid(row=5, column=3, padx=5, pady=5)
-
+boton_rest.grid(row=5, column=3, padx=5, pady=5)
 
 root.mainloop()
